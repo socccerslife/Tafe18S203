@@ -1,0 +1,15 @@
+App.xbf
+Styles\Custom.xbf
+Views\AccountsPage.xbf
+Views\AssetsPage.xbf
+Views\Busy.xbf
+Views\DashBoardPage.xbf
+Views\DebtPage.xbf
+Views\DetailPage.xbf
+Views\MainPage.xbf
+Views\SettingsPage.xbf
+Views\Shell.xbf
+Views\Splash.xbf
+Views\TransactionListPage.xbf
+Views\TransactionPage.xbf
+Views\WishListPage.xbf
