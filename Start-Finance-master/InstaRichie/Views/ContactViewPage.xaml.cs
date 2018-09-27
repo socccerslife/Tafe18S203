@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using StartFinance.ViewModels;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
+
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+
+namespace StartFinance.Views
+{
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class ContactViewPage : Page
+    {
+        ContactSearchViewModel viewModel;
+        ContactViewModel viewModelMain;
+        public ContactViewPage()
+        {
+            this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            int id = (int)e.Parameter;
+
+            if (viewModel == null)
+            {
+                viewModel = new ContactSearchViewModel(id);
+                DataContext = viewModel.Contact;
+            }
+        }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ContactPage));
+        }
+
+        private async void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            //delete the current detail
+            try
+            {
+                int id = int.Parse(contactId.Text);
+                viewModelMain.DeleteContact(id);
+            }
+            catch
+            {
+                MessageDialog md = new MessageDialog("There is no data", "No data");
+                await md.ShowAsync();
+                contactId.Focus(FocusState.Programmatic);
+                contactId.SelectAll();
+                return;
+            }
+            Frame.Navigate(typeof(ContactPage));
+        }
+
+        private void EditBarBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ContactUpdatePage), viewModel.Contact.ContactID);
+        }
+    }
+}
