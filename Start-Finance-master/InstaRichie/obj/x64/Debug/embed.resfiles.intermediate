@@ -1,12 +1,12 @@
 App.xbf
 Styles\Custom.xbf
 Views\AccountsPage.xbf
+Views\AppointmentAddPage.xbf
+Views\AppointmentPage.xbf
+Views\AppointmentUpdatePage.xbf
+Views\AppointmentViewPage.xbf
 Views\AssetsPage.xbf
 Views\Busy.xbf
-Views\ContactAddPage.xbf
-Views\ContactPage.xbf
-Views\ContactUpdatePage.xbf
-Views\ContactViewPage.xbf
 Views\DashBoardPage.xbf
 Views\DebtPage.xbf
 Views\DetailPage.xbf

@@ -213,12 +213,12 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
             _typeNameTable[53] = "Template10.Common.IStateItems";
             _typeNameTable[54] = "StartFinance.Views.AccountsPage";
             _typeNameTable[55] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[56] = "StartFinance.Views.AssetsPage";
-            _typeNameTable[57] = "StartFinance.Views.Busy";
-            _typeNameTable[58] = "StartFinance.Views.ContactAddPage";
-            _typeNameTable[59] = "StartFinance.Views.ContactPage";
-            _typeNameTable[60] = "StartFinance.Views.ContactUpdatePage";
-            _typeNameTable[61] = "StartFinance.Views.ContactViewPage";
+            _typeNameTable[56] = "StartFinance.Views.AppointmentAddPage";
+            _typeNameTable[57] = "StartFinance.Views.AppointmentPage";
+            _typeNameTable[58] = "StartFinance.Views.AppointmentUpdatePage";
+            _typeNameTable[59] = "StartFinance.Views.AppointmentViewPage";
+            _typeNameTable[60] = "StartFinance.Views.AssetsPage";
+            _typeNameTable[61] = "StartFinance.Views.Busy";
             _typeNameTable[62] = "CrossPieCharts.UWP.PieCharts.PieChart";
             _typeNameTable[63] = "Int32";
             _typeNameTable[64] = "StartFinance.Views.DashBoardPage";
@@ -304,12 +304,12 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
             _typeTable[53] = typeof(global::Template10.Common.IStateItems);
             _typeTable[54] = typeof(global::StartFinance.Views.AccountsPage);
             _typeTable[55] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[56] = typeof(global::StartFinance.Views.AssetsPage);
-            _typeTable[57] = typeof(global::StartFinance.Views.Busy);
-            _typeTable[58] = typeof(global::StartFinance.Views.ContactAddPage);
-            _typeTable[59] = typeof(global::StartFinance.Views.ContactPage);
-            _typeTable[60] = typeof(global::StartFinance.Views.ContactUpdatePage);
-            _typeTable[61] = typeof(global::StartFinance.Views.ContactViewPage);
+            _typeTable[56] = typeof(global::StartFinance.Views.AppointmentAddPage);
+            _typeTable[57] = typeof(global::StartFinance.Views.AppointmentPage);
+            _typeTable[58] = typeof(global::StartFinance.Views.AppointmentUpdatePage);
+            _typeTable[59] = typeof(global::StartFinance.Views.AppointmentViewPage);
+            _typeTable[60] = typeof(global::StartFinance.Views.AssetsPage);
+            _typeTable[61] = typeof(global::StartFinance.Views.Busy);
             _typeTable[62] = typeof(global::CrossPieCharts.UWP.PieCharts.PieChart);
             _typeTable[63] = typeof(global::System.Int32);
             _typeTable[64] = typeof(global::StartFinance.Views.DashBoardPage);
@@ -382,12 +382,12 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
         private object Activate_46_Resizer() { return new global::Template10.Controls.Resizer(); }
         private object Activate_49_MainPageViewModel() { return new global::StartFinance.ViewModels.MainPageViewModel(); }
         private object Activate_54_AccountsPage() { return new global::StartFinance.Views.AccountsPage(); }
-        private object Activate_56_AssetsPage() { return new global::StartFinance.Views.AssetsPage(); }
-        private object Activate_57_Busy() { return new global::StartFinance.Views.Busy(); }
-        private object Activate_58_ContactAddPage() { return new global::StartFinance.Views.ContactAddPage(); }
-        private object Activate_59_ContactPage() { return new global::StartFinance.Views.ContactPage(); }
-        private object Activate_60_ContactUpdatePage() { return new global::StartFinance.Views.ContactUpdatePage(); }
-        private object Activate_61_ContactViewPage() { return new global::StartFinance.Views.ContactViewPage(); }
+        private object Activate_56_AppointmentAddPage() { return new global::StartFinance.Views.AppointmentAddPage(); }
+        private object Activate_57_AppointmentPage() { return new global::StartFinance.Views.AppointmentPage(); }
+        private object Activate_58_AppointmentUpdatePage() { return new global::StartFinance.Views.AppointmentUpdatePage(); }
+        private object Activate_59_AppointmentViewPage() { return new global::StartFinance.Views.AppointmentViewPage(); }
+        private object Activate_60_AssetsPage() { return new global::StartFinance.Views.AssetsPage(); }
+        private object Activate_61_Busy() { return new global::StartFinance.Views.Busy(); }
         private object Activate_62_PieChart() { return new global::CrossPieCharts.UWP.PieCharts.PieChart(); }
         private object Activate_64_DashBoardPage() { return new global::StartFinance.Views.DashBoardPage(); }
         private object Activate_65_DebtPage() { return new global::StartFinance.Views.DebtPage(); }
@@ -843,46 +843,46 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 56:   //  StartFinance.Views.AssetsPage
+            case 56:   //  StartFinance.Views.AppointmentAddPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_AssetsPage;
+                userType.Activator = Activate_56_AppointmentAddPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  StartFinance.Views.Busy
+            case 57:   //  StartFinance.Views.AppointmentPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_57_AppointmentPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 58:   //  StartFinance.Views.AppointmentUpdatePage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_58_AppointmentUpdatePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 59:   //  StartFinance.Views.AppointmentViewPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_59_AppointmentViewPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 60:   //  StartFinance.Views.AssetsPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_60_AssetsPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 61:   //  StartFinance.Views.Busy
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_57_Busy;
+                userType.Activator = Activate_61_Busy;
                 userType.AddMemberName("BusyText");
                 userType.AddMemberName("IsBusy");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 58:   //  StartFinance.Views.ContactAddPage
-                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_ContactAddPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 59:   //  StartFinance.Views.ContactPage
-                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_ContactPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 60:   //  StartFinance.Views.ContactUpdatePage
-                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_ContactUpdatePage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 61:   //  StartFinance.Views.ContactViewPage
-                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_ContactViewPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
