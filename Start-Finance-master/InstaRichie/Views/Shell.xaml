@@ -86,14 +86,14 @@
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
-            <!-- Contact button -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ContactPage"
+            <!-- Appointment button -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:AppointmentPage"
                                           AutomationProperties.Name="Jerry">
                 <StackPanel Orientation="Horizontal">
                     <SymbolIcon Width="48" Height="48"
                                 Symbol="Contact"/>
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text="Contact"/>
+                               Text="Appointment"/>
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 

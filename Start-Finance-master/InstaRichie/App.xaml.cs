@@ -35,7 +35,7 @@ namespace StartFinance
     sealed partial class App : Template10.Common.BootStrapper
     {
         private static string Db { get; } = "db.sqlite";
-        public static IContactRepository Data { get; } = new ContactRepository(Db);
+        public static IAppointmentRepository Data { get; } = new AppointmentRepository(Db);
         public App()
         {
             InitializeComponent();
