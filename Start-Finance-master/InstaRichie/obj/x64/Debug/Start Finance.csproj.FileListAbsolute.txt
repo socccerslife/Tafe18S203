@@ -132,7 +132,6 @@ C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Sys
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\System.Xml.XmlDocument.dll
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\System.Xml.XmlSerializer.dll
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Template10Library.dll
-C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Start Finance.csprojResolveAssemblyReference.cache
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\App.g.i.cs
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\App.g.cs
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\AccountsPage.g.i.cs
@@ -285,3 +284,4 @@ C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Vie
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactPage.xbf
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactUpdatePage.xbf
 C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactViewPage.xbf
+C:\MyContactDetail\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Start Finance.csprojResolveAssemblyReference.cache

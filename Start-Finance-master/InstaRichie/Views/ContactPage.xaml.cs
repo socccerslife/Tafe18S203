@@ -60,7 +60,7 @@ namespace StartFinance.Views
                 {
                     viewModelS = new ContactSearchViewModel(int.Parse(ContIDTxtBox.Text));
                     this.DataContext = viewModelS;
-                    this.MainListBox.Items.Add(viewModelS.Contact);
+                    //this.MainListBox.Items.Add(viewModelS.Contact);
                     //Frame.Navigate(typeof(ContactViewPage), viewModelS.Contact.ContactID);
                 }
                 catch
@@ -73,19 +73,19 @@ namespace StartFinance.Views
                     return;
                 }
 
-                //try
-                //{
-                //    Frame.Navigate(typeof(ContactViewPage), viewModelS.Contact.ContactID);
-                //}
-                //catch
-                //{
-                //    MessageDialog md = new MessageDialog("There is no data with that ID", "No Data Exist");
-                //    await md.ShowAsync();
-                //    ContIDTxtBox.Text = string.Empty;
-                //    ContIDTxtBox.Focus(FocusState.Programmatic);
-                //    ContIDTxtBox.SelectAll();
-                //    return;
-                //}
+                try
+                {
+                    Frame.Navigate(typeof(ContactViewPage), viewModelS.Contact.ContactID);
+                }
+                catch
+                {
+                    MessageDialog md = new MessageDialog("There is no data with that ID", "No Data Exist");
+                    await md.ShowAsync();
+                    ContIDTxtBox.Text = string.Empty;
+                    ContIDTxtBox.Focus(FocusState.Programmatic);
+                    ContIDTxtBox.SelectAll();
+                    return;
+                }
 
             }
 
