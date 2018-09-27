@@ -710,7 +710,6 @@ D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bi
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\System.Xml.XmlDocument.dll
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\System.Xml.XmlSerializer.dll
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Template10Library.dll
-D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Start Finance.csprojResolveAssemblyReference.cache
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\App.g.i.cs
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\App.g.cs
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\AccountsPage.g.i.cs
@@ -859,3 +858,23 @@ D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\ob
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Template10Library.pri.xml
 D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\ProjectArchitectures.txt
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactAddPage.g.i.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactAddPage.g.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactPage.g.i.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactPage.g.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactUpdatePage.g.i.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactUpdatePage.g.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactViewPage.g.i.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactViewPage.g.cs
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactAddPage.xaml
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactPage.xaml
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactUpdatePage.xaml
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactViewPage.xaml
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactAddPage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactPage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactUpdatePage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\obj\x64\Debug\Views\ContactViewPage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactAddPage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactPage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactUpdatePage.xbf
+D:\Study\TAFE SA\2018S2\5TSD\Test\Tafe18S203\Start-Finance-master\InstaRichie\bin\x64\Debug\Views\ContactViewPage.xbf

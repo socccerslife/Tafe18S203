@@ -28,7 +28,7 @@ namespace StartFinance.ViewModels
 
         public ContactSearchViewModel(int contactId)
         {
-            Db = App.Data;
+            Db = App.Data1;
             contact = Db.GetContactById(contactId);
         }
 
