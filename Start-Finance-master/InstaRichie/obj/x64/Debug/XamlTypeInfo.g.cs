@@ -156,7 +156,7 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[85];
+            _typeNameTable = new string[89];
             _typeNameTable[0] = "Template10.Common.BootStrapper";
             _typeNameTable[1] = "Windows.UI.Xaml.Application";
             _typeNameTable[2] = "Template10.Common.StateItems";
@@ -215,35 +215,39 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
             _typeNameTable[55] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[56] = "StartFinance.Views.AssetsPage";
             _typeNameTable[57] = "StartFinance.Views.Busy";
-            _typeNameTable[58] = "CrossPieCharts.UWP.PieCharts.PieChart";
-            _typeNameTable[59] = "Int32";
-            _typeNameTable[60] = "StartFinance.Views.DashBoardPage";
-            _typeNameTable[61] = "StartFinance.Views.DebtPage";
-            _typeNameTable[62] = "StartFinance.ViewModels.DetailPageViewModel";
-            _typeNameTable[63] = "StartFinance.Views.DetailPage";
-            _typeNameTable[64] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[65] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[66] = "Windows.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[67] = "Template10.Behaviors.KeyBehavior";
-            _typeNameTable[68] = "Microsoft.Xaml.Interactivity.ActionCollection";
-            _typeNameTable[69] = "Windows.System.VirtualKey";
-            _typeNameTable[70] = "Template10.Behaviors.KeyBehavior.Kinds";
-            _typeNameTable[71] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
-            _typeNameTable[72] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[73] = "Template10.Behaviors.FocusAction";
-            _typeNameTable[74] = "Microsoft.Xaml.Interactions.Core.CallMethodAction";
-            _typeNameTable[75] = "StartFinance.Views.MainPage";
-            _typeNameTable[76] = "StartFinance.ViewModels.SettingsPageViewModel";
-            _typeNameTable[77] = "StartFinance.ViewModels.SettingsPartViewModel";
-            _typeNameTable[78] = "StartFinance.ViewModels.AboutPartViewModel";
-            _typeNameTable[79] = "StartFinance.Views.SettingsPage";
-            _typeNameTable[80] = "StartFinance.Views.Shell";
-            _typeNameTable[81] = "StartFinance.Views.Splash";
-            _typeNameTable[82] = "StartFinance.Views.TransactionListPage";
-            _typeNameTable[83] = "StartFinance.Views.TransactionPage";
-            _typeNameTable[84] = "StartFinance.Views.WishListPage";
+            _typeNameTable[58] = "StartFinance.Views.ContactAddPage";
+            _typeNameTable[59] = "StartFinance.Views.ContactPage";
+            _typeNameTable[60] = "StartFinance.Views.ContactUpdatePage";
+            _typeNameTable[61] = "StartFinance.Views.ContactViewPage";
+            _typeNameTable[62] = "CrossPieCharts.UWP.PieCharts.PieChart";
+            _typeNameTable[63] = "Int32";
+            _typeNameTable[64] = "StartFinance.Views.DashBoardPage";
+            _typeNameTable[65] = "StartFinance.Views.DebtPage";
+            _typeNameTable[66] = "StartFinance.ViewModels.DetailPageViewModel";
+            _typeNameTable[67] = "StartFinance.Views.DetailPage";
+            _typeNameTable[68] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[69] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[70] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[71] = "Template10.Behaviors.KeyBehavior";
+            _typeNameTable[72] = "Microsoft.Xaml.Interactivity.ActionCollection";
+            _typeNameTable[73] = "Windows.System.VirtualKey";
+            _typeNameTable[74] = "Template10.Behaviors.KeyBehavior.Kinds";
+            _typeNameTable[75] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
+            _typeNameTable[76] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[77] = "Template10.Behaviors.FocusAction";
+            _typeNameTable[78] = "Microsoft.Xaml.Interactions.Core.CallMethodAction";
+            _typeNameTable[79] = "StartFinance.Views.MainPage";
+            _typeNameTable[80] = "StartFinance.ViewModels.SettingsPageViewModel";
+            _typeNameTable[81] = "StartFinance.ViewModels.SettingsPartViewModel";
+            _typeNameTable[82] = "StartFinance.ViewModels.AboutPartViewModel";
+            _typeNameTable[83] = "StartFinance.Views.SettingsPage";
+            _typeNameTable[84] = "StartFinance.Views.Shell";
+            _typeNameTable[85] = "StartFinance.Views.Splash";
+            _typeNameTable[86] = "StartFinance.Views.TransactionListPage";
+            _typeNameTable[87] = "StartFinance.Views.TransactionPage";
+            _typeNameTable[88] = "StartFinance.Views.WishListPage";
 
-            _typeTable = new global::System.Type[85];
+            _typeTable = new global::System.Type[89];
             _typeTable[0] = typeof(global::Template10.Common.BootStrapper);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Template10.Common.StateItems);
@@ -302,33 +306,37 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
             _typeTable[55] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[56] = typeof(global::StartFinance.Views.AssetsPage);
             _typeTable[57] = typeof(global::StartFinance.Views.Busy);
-            _typeTable[58] = typeof(global::CrossPieCharts.UWP.PieCharts.PieChart);
-            _typeTable[59] = typeof(global::System.Int32);
-            _typeTable[60] = typeof(global::StartFinance.Views.DashBoardPage);
-            _typeTable[61] = typeof(global::StartFinance.Views.DebtPage);
-            _typeTable[62] = typeof(global::StartFinance.ViewModels.DetailPageViewModel);
-            _typeTable[63] = typeof(global::StartFinance.Views.DetailPage);
-            _typeTable[64] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[65] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[66] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
-            _typeTable[67] = typeof(global::Template10.Behaviors.KeyBehavior);
-            _typeTable[68] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
-            _typeTable[69] = typeof(global::Windows.System.VirtualKey);
-            _typeTable[70] = typeof(global::Template10.Behaviors.KeyBehavior.Kinds);
-            _typeTable[71] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
-            _typeTable[72] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[73] = typeof(global::Template10.Behaviors.FocusAction);
-            _typeTable[74] = typeof(global::Microsoft.Xaml.Interactions.Core.CallMethodAction);
-            _typeTable[75] = typeof(global::StartFinance.Views.MainPage);
-            _typeTable[76] = typeof(global::StartFinance.ViewModels.SettingsPageViewModel);
-            _typeTable[77] = typeof(global::StartFinance.ViewModels.SettingsPartViewModel);
-            _typeTable[78] = typeof(global::StartFinance.ViewModels.AboutPartViewModel);
-            _typeTable[79] = typeof(global::StartFinance.Views.SettingsPage);
-            _typeTable[80] = typeof(global::StartFinance.Views.Shell);
-            _typeTable[81] = typeof(global::StartFinance.Views.Splash);
-            _typeTable[82] = typeof(global::StartFinance.Views.TransactionListPage);
-            _typeTable[83] = typeof(global::StartFinance.Views.TransactionPage);
-            _typeTable[84] = typeof(global::StartFinance.Views.WishListPage);
+            _typeTable[58] = typeof(global::StartFinance.Views.ContactAddPage);
+            _typeTable[59] = typeof(global::StartFinance.Views.ContactPage);
+            _typeTable[60] = typeof(global::StartFinance.Views.ContactUpdatePage);
+            _typeTable[61] = typeof(global::StartFinance.Views.ContactViewPage);
+            _typeTable[62] = typeof(global::CrossPieCharts.UWP.PieCharts.PieChart);
+            _typeTable[63] = typeof(global::System.Int32);
+            _typeTable[64] = typeof(global::StartFinance.Views.DashBoardPage);
+            _typeTable[65] = typeof(global::StartFinance.Views.DebtPage);
+            _typeTable[66] = typeof(global::StartFinance.ViewModels.DetailPageViewModel);
+            _typeTable[67] = typeof(global::StartFinance.Views.DetailPage);
+            _typeTable[68] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[69] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[70] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[71] = typeof(global::Template10.Behaviors.KeyBehavior);
+            _typeTable[72] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
+            _typeTable[73] = typeof(global::Windows.System.VirtualKey);
+            _typeTable[74] = typeof(global::Template10.Behaviors.KeyBehavior.Kinds);
+            _typeTable[75] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
+            _typeTable[76] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[77] = typeof(global::Template10.Behaviors.FocusAction);
+            _typeTable[78] = typeof(global::Microsoft.Xaml.Interactions.Core.CallMethodAction);
+            _typeTable[79] = typeof(global::StartFinance.Views.MainPage);
+            _typeTable[80] = typeof(global::StartFinance.ViewModels.SettingsPageViewModel);
+            _typeTable[81] = typeof(global::StartFinance.ViewModels.SettingsPartViewModel);
+            _typeTable[82] = typeof(global::StartFinance.ViewModels.AboutPartViewModel);
+            _typeTable[83] = typeof(global::StartFinance.Views.SettingsPage);
+            _typeTable[84] = typeof(global::StartFinance.Views.Shell);
+            _typeTable[85] = typeof(global::StartFinance.Views.Splash);
+            _typeTable[86] = typeof(global::StartFinance.Views.TransactionListPage);
+            _typeTable[87] = typeof(global::StartFinance.Views.TransactionPage);
+            _typeTable[88] = typeof(global::StartFinance.Views.WishListPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -376,26 +384,30 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
         private object Activate_54_AccountsPage() { return new global::StartFinance.Views.AccountsPage(); }
         private object Activate_56_AssetsPage() { return new global::StartFinance.Views.AssetsPage(); }
         private object Activate_57_Busy() { return new global::StartFinance.Views.Busy(); }
-        private object Activate_58_PieChart() { return new global::CrossPieCharts.UWP.PieCharts.PieChart(); }
-        private object Activate_60_DashBoardPage() { return new global::StartFinance.Views.DashBoardPage(); }
-        private object Activate_61_DebtPage() { return new global::StartFinance.Views.DebtPage(); }
-        private object Activate_62_DetailPageViewModel() { return new global::StartFinance.ViewModels.DetailPageViewModel(); }
-        private object Activate_63_DetailPage() { return new global::StartFinance.Views.DetailPage(); }
-        private object Activate_65_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_67_KeyBehavior() { return new global::Template10.Behaviors.KeyBehavior(); }
-        private object Activate_68_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
-        private object Activate_71_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
-        private object Activate_73_FocusAction() { return new global::Template10.Behaviors.FocusAction(); }
-        private object Activate_74_CallMethodAction() { return new global::Microsoft.Xaml.Interactions.Core.CallMethodAction(); }
-        private object Activate_75_MainPage() { return new global::StartFinance.Views.MainPage(); }
-        private object Activate_76_SettingsPageViewModel() { return new global::StartFinance.ViewModels.SettingsPageViewModel(); }
-        private object Activate_77_SettingsPartViewModel() { return new global::StartFinance.ViewModels.SettingsPartViewModel(); }
-        private object Activate_78_AboutPartViewModel() { return new global::StartFinance.ViewModels.AboutPartViewModel(); }
-        private object Activate_79_SettingsPage() { return new global::StartFinance.Views.SettingsPage(); }
-        private object Activate_80_Shell() { return new global::StartFinance.Views.Shell(); }
-        private object Activate_82_TransactionListPage() { return new global::StartFinance.Views.TransactionListPage(); }
-        private object Activate_83_TransactionPage() { return new global::StartFinance.Views.TransactionPage(); }
-        private object Activate_84_WishListPage() { return new global::StartFinance.Views.WishListPage(); }
+        private object Activate_58_ContactAddPage() { return new global::StartFinance.Views.ContactAddPage(); }
+        private object Activate_59_ContactPage() { return new global::StartFinance.Views.ContactPage(); }
+        private object Activate_60_ContactUpdatePage() { return new global::StartFinance.Views.ContactUpdatePage(); }
+        private object Activate_61_ContactViewPage() { return new global::StartFinance.Views.ContactViewPage(); }
+        private object Activate_62_PieChart() { return new global::CrossPieCharts.UWP.PieCharts.PieChart(); }
+        private object Activate_64_DashBoardPage() { return new global::StartFinance.Views.DashBoardPage(); }
+        private object Activate_65_DebtPage() { return new global::StartFinance.Views.DebtPage(); }
+        private object Activate_66_DetailPageViewModel() { return new global::StartFinance.ViewModels.DetailPageViewModel(); }
+        private object Activate_67_DetailPage() { return new global::StartFinance.Views.DetailPage(); }
+        private object Activate_69_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_71_KeyBehavior() { return new global::Template10.Behaviors.KeyBehavior(); }
+        private object Activate_72_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
+        private object Activate_75_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
+        private object Activate_77_FocusAction() { return new global::Template10.Behaviors.FocusAction(); }
+        private object Activate_78_CallMethodAction() { return new global::Microsoft.Xaml.Interactions.Core.CallMethodAction(); }
+        private object Activate_79_MainPage() { return new global::StartFinance.Views.MainPage(); }
+        private object Activate_80_SettingsPageViewModel() { return new global::StartFinance.ViewModels.SettingsPageViewModel(); }
+        private object Activate_81_SettingsPartViewModel() { return new global::StartFinance.ViewModels.SettingsPartViewModel(); }
+        private object Activate_82_AboutPartViewModel() { return new global::StartFinance.ViewModels.AboutPartViewModel(); }
+        private object Activate_83_SettingsPage() { return new global::StartFinance.Views.SettingsPage(); }
+        private object Activate_84_Shell() { return new global::StartFinance.Views.Shell(); }
+        private object Activate_86_TransactionListPage() { return new global::StartFinance.Views.TransactionListPage(); }
+        private object Activate_87_TransactionPage() { return new global::StartFinance.Views.TransactionPage(); }
+        private object Activate_88_WishListPage() { return new global::StartFinance.Views.WishListPage(); }
         private void MapAdd_2_StateItems(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -422,13 +434,13 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
             var newItem = (global::Template10.Controls.HamburgerButtonInfo)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_65_BehaviorCollection(object instance, object item)
+        private void VectorAdd_69_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_68_ActionCollection(object instance, object item)
+        private void VectorAdd_72_ActionCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
@@ -847,9 +859,37 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 58:   //  CrossPieCharts.UWP.PieCharts.PieChart
+            case 58:   //  StartFinance.Views.ContactAddPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_58_ContactAddPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 59:   //  StartFinance.Views.ContactPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_59_ContactPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 60:   //  StartFinance.Views.ContactUpdatePage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_60_ContactUpdatePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 61:   //  StartFinance.Views.ContactViewPage
+                userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_61_ContactViewPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 62:   //  CrossPieCharts.UWP.PieCharts.PieChart
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_58_PieChart;
+                userType.Activator = Activate_62_PieChart;
                 userType.AddMemberName("Radius");
                 userType.AddMemberName("Segment360Color");
                 userType.AddMemberName("SegmentColor");
@@ -859,59 +899,59 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 59:   //  Int32
+            case 63:   //  Int32
                 xamlType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 60:   //  StartFinance.Views.DashBoardPage
+            case 64:   //  StartFinance.Views.DashBoardPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_DashBoardPage;
+                userType.Activator = Activate_64_DashBoardPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  StartFinance.Views.DebtPage
+            case 65:   //  StartFinance.Views.DebtPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_DebtPage;
+                userType.Activator = Activate_65_DebtPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  StartFinance.ViewModels.DetailPageViewModel
+            case 66:   //  StartFinance.ViewModels.DetailPageViewModel
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
-                userType.Activator = Activate_62_DetailPageViewModel;
+                userType.Activator = Activate_66_DetailPageViewModel;
                 userType.AddMemberName("Value");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 63:   //  StartFinance.Views.DetailPage
+            case 67:   //  StartFinance.Views.DetailPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_63_DetailPage;
+                userType.Activator = Activate_67_DetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 64:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 68:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 65:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 69:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_65_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_69_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 66:   //  Windows.UI.Xaml.DependencyObjectCollection
+            case 70:   //  Windows.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 67:   //  Template10.Behaviors.KeyBehavior
+            case 71:   //  Template10.Behaviors.KeyBehavior
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_67_KeyBehavior;
+                userType.Activator = Activate_71_KeyBehavior;
                 userType.SetContentPropertyName("Template10.Behaviors.KeyBehavior.Actions");
                 userType.AddMemberName("Actions");
                 userType.AddMemberName("Key");
@@ -923,14 +963,14 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 68:   //  Microsoft.Xaml.Interactivity.ActionCollection
+            case 72:   //  Microsoft.Xaml.Interactivity.ActionCollection
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_68_ActionCollection;
+                userType.CollectionAdd = VectorAdd_72_ActionCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 69:   //  Windows.System.VirtualKey
+            case 73:   //  Windows.System.VirtualKey
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Windows.System.VirtualKey.None);
                 userType.AddEnumValue("LeftButton", global::Windows.System.VirtualKey.LeftButton);
@@ -1105,16 +1145,16 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 70:   //  Template10.Behaviors.KeyBehavior.Kinds
+            case 74:   //  Template10.Behaviors.KeyBehavior.Kinds
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("KeyUp", global::Template10.Behaviors.KeyBehavior.Kinds.KeyUp);
                 userType.AddEnumValue("KeyDown", global::Template10.Behaviors.KeyBehavior.Kinds.KeyDown);
                 xamlType = userType;
                 break;
 
-            case 71:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
+            case 75:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
-                userType.Activator = Activate_71_EventTriggerBehavior;
+                userType.Activator = Activate_75_EventTriggerBehavior;
                 userType.SetContentPropertyName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions");
                 userType.AddMemberName("Actions");
                 userType.AddMemberName("EventName");
@@ -1122,94 +1162,94 @@ namespace StartFinance.Start_Finance_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 72:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 76:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 73:   //  Template10.Behaviors.FocusAction
+            case 77:   //  Template10.Behaviors.FocusAction
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_73_FocusAction;
+                userType.Activator = Activate_77_FocusAction;
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 74:   //  Microsoft.Xaml.Interactions.Core.CallMethodAction
+            case 78:   //  Microsoft.Xaml.Interactions.Core.CallMethodAction
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_74_CallMethodAction;
+                userType.Activator = Activate_78_CallMethodAction;
                 userType.AddMemberName("MethodName");
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 75:   //  StartFinance.Views.MainPage
+            case 79:   //  StartFinance.Views.MainPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_75_MainPage;
+                userType.Activator = Activate_79_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 76:   //  StartFinance.ViewModels.SettingsPageViewModel
+            case 80:   //  StartFinance.ViewModels.SettingsPageViewModel
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
-                userType.Activator = Activate_76_SettingsPageViewModel;
+                userType.Activator = Activate_80_SettingsPageViewModel;
                 userType.AddMemberName("SettingsPartViewModel");
                 userType.AddMemberName("AboutPartViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 77:   //  StartFinance.ViewModels.SettingsPartViewModel
+            case 81:   //  StartFinance.ViewModels.SettingsPartViewModel
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 78:   //  StartFinance.ViewModels.AboutPartViewModel
+            case 82:   //  StartFinance.ViewModels.AboutPartViewModel
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 79:   //  StartFinance.Views.SettingsPage
+            case 83:   //  StartFinance.Views.SettingsPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_79_SettingsPage;
+                userType.Activator = Activate_83_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 80:   //  StartFinance.Views.Shell
+            case 84:   //  StartFinance.Views.Shell
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_80_Shell;
+                userType.Activator = Activate_84_Shell;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 81:   //  StartFinance.Views.Splash
+            case 85:   //  StartFinance.Views.Splash
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 82:   //  StartFinance.Views.TransactionListPage
+            case 86:   //  StartFinance.Views.TransactionListPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_82_TransactionListPage;
+                userType.Activator = Activate_86_TransactionListPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 83:   //  StartFinance.Views.TransactionPage
+            case 87:   //  StartFinance.Views.TransactionPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_83_TransactionPage;
+                userType.Activator = Activate_87_TransactionPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 84:   //  StartFinance.Views.WishListPage
+            case 88:   //  StartFinance.Views.WishListPage
                 userType = new global::StartFinance.Start_Finance_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_84_WishListPage;
+                userType.Activator = Activate_88_WishListPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

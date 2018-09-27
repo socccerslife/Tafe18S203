@@ -9,8 +9,8 @@ namespace StartFinance.Models
 {
     public class Contact
     {
-        [PrimaryKey, AutoIncrement]
-        public int ContactID { get; set; }
+        [PrimaryKey AutoIncrement]
+        public int ContactID { get; private set; }
         [NotNull]
         public string FirstName { get; set; }
         [NotNull]

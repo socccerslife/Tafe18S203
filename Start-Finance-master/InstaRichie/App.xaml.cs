@@ -17,6 +17,7 @@
 
 using Windows.UI.Xaml;
 using System.Threading.Tasks;
+using StartFinance.Models;
 using StartFinance.Services.SettingsServices;
 using Windows.ApplicationModel.Activation;
 using Template10.Controls;
@@ -33,6 +34,8 @@ namespace StartFinance
     [Bindable]
     sealed partial class App : Template10.Common.BootStrapper
     {
+        private static string Db { get; } = "db.sqlite";
+        public static IContactRepository Data { get; } = new ContactRepository(Db);
         public App()
         {
             InitializeComponent();

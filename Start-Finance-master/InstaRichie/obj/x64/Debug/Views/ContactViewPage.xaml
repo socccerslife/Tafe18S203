@@ -1,5 +1,5 @@
 ﻿<Page x:ConnectionId='1'
-    x:Class="StartFinance.Views.AccountsPage"
+    x:Class="StartFinance.Views.ContactViewPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:Behaviors="using:Template10.Behaviors"
@@ -28,6 +28,7 @@
     <Page.DataContext>
         <vm:MainPageViewModel x:ConnectionId='2' x:Name="ViewModel" />
     </Page.DataContext>
+
 
     <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -66,20 +67,20 @@
 
             <!--  secondary commands  -->
             <controls:PageHeader.SecondaryCommands>
-                <AppBarButton x:ConnectionId='16'                                         Label="Settings" />
-                <AppBarButton x:ConnectionId='17'                                        Label="Privacy" />
-                <AppBarButton x:ConnectionId='18'                                      Label="About" />
+                <AppBarButton x:ConnectionId='20'                                         Label="Settings" />
+                <AppBarButton x:ConnectionId='21'                                        Label="Privacy" />
+                <AppBarButton x:ConnectionId='22'                                      Label="About" />
             </controls:PageHeader.SecondaryCommands>
         </controls:PageHeader>
 
         <controls:PageHeader x:ConnectionId='8' x:Name="pageFooter" RelativePanel.AlignLeftWithPanel="True"
 			RelativePanel.AlignRightWithPanel="True"
-			RelativePanel.AlignBottomWithPanel="True">
+			RelativePanel.AlignBottomWithPanel="True" HorizontalAlignment="Left" Width="360">
 
             <!--  secondary commands  -->
             <controls:PageHeader.PrimaryCommands>
-                <AppBarButton x:ConnectionId='14' Icon="Add" Label="Add Account"                            />
-                <AppBarButton x:ConnectionId='15' Icon="Delete" Label="Delete Account"                          />
+                <AppBarButton x:ConnectionId='18' Icon="Home" Label="Go to Contact page" x:Name="Home"                     />
+                <AppBarButton x:ConnectionId='19' Icon="Delete" Label="Delete current contact detail" x:Name="Delete"                      />
             </controls:PageHeader.PrimaryCommands>
         </controls:PageHeader>
 
@@ -89,25 +90,27 @@
             <RelativePanel.Above>pageFooter</RelativePanel.Above>
             <PivotItem Header="Accounts">
                 <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="185"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <StackPanel x:ConnectionId='9' x:Name="PageStart" Grid.Row="0" VerticalAlignment="Top"
-                        HorizontalAlignment="Stretch"
-                        Orientation="Vertical" Margin="10,5,10,0">
-                        <TextBox x:ConnectionId='11' x:Name="AccName" Header="Account Name" PlaceholderText="Cash Wallet, Savings or Credit Card" TextWrapping="Wrap"/>
-                        <TextBox x:ConnectionId='12' x:Name="MoneyIn" Header="Initial Amount" PlaceholderText="100.00" InputScope="Number" TextWrapping="Wrap"/>
-                        <ToggleSwitch x:ConnectionId='13' x:Name="overdraft" Header="Enable Overdraft"
-                                      HorizontalAlignment="Stretch" ToolTipService.Placement="Mouse"
-                                      ToolTipService.ToolTip="Mostly used for Credit Cards"
-                                      VerticalAlignment="Stretch"/>
-
+                    <StackPanel x:ConnectionId='9' x:Name="TitlePanel" Margin="0,-50,0,0">
+                        <TextBlock x:ConnectionId='17' x:Name="PageTitle" Text="Contact Detail" Style="{StaticResource HeaderTextBlockStyle}"/>
                     </StackPanel>
-                    <ListView x:ConnectionId='10' x:Name="TransactionList" Grid.Row="1" ItemTemplate="{StaticResource TransListView}"
-                              HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                        <RelativePanel.Below>PageStart</RelativePanel.Below>
-                    </ListView>
+                    <StackPanel x:ConnectionId='10' x:Name="PageStart" Grid.Row="0" VerticalAlignment="Top"
+                        HorizontalAlignment="Stretch"
+                        Orientation="Vertical" Margin="10,30,10,0">
+                        <TextBlock Text="Contact ID: " Margin="0,12,0,0"/>
+                        <TextBlock Text="First Name: " Margin="0,12,0,0"/>
+                        <TextBlock Text="Last Name: " Margin="0,12,0,0"/>
+                        <TextBlock Text="Company Name: " Margin="0,12,0,0"/>
+                        <TextBlock Text="Mobile Phone: " Margin="0,12,0,0"/>
+                        <Button x:ConnectionId='16' x:Name="EditBarBtn" Content="Update" Margin="0,30,0,0"                         />
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="130,30,10,0" HorizontalAlignment="Stretch">
+                        <TextBlock x:ConnectionId='11' x:Name="contactId" Text="{Binding ContactID}" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}" Margin="0,12,0,0" FontSize="15"/>
+                        <TextBlock x:ConnectionId='12' x:Name="conFName" Text="{Binding FirstName}" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}" Margin="0,12,0,0" FontSize="15"/>
+                        <TextBlock x:ConnectionId='13' x:Name="conLName" Text="{Binding LastName}" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}" Margin="0,12,0,0" FontSize="15"/>
+                        <TextBlock x:ConnectionId='14' x:Name="conComName" Text="{Binding CompanyName}" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}" Margin="0,12,0,0" FontSize="15"/>
+                        <TextBlock x:ConnectionId='15' x:Name="MobNo" Text="{Binding MobilePhone}" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}" Margin="0,12,0,0" FontSize="15"/>
+                    </StackPanel>
+
                 </Grid>
             </PivotItem>
         </Pivot>
